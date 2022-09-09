@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>flight_fulfillment</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Flight Fulfillment</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 09:44:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2027e5312f71111073f0ad2ef699b670</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Flight Fulfillment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FLIGHT MANAGEMENT SYSTEM" source="x_851573_flight_0">b365e5fd2f31111073f0ad2ef699b60c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="FLIGHT MANAGEMENT SYSTEM">b365e5fd2f31111073f0ad2ef699b60c</sys_scope>
+        <sys_update_name>sys_hub_flow_2027e5312f71111073f0ad2ef699b670</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 09:44:03</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=2027e5312f71111073f0ad2ef699b670"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2027e5312f71111073f0ad2ef699b670"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=2027e5312f71111073f0ad2ef699b670"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=2027e5312f71111073f0ad2ef699b670"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=2027e5312f71111073f0ad2ef699b670^sys_idNOT INe827e5312f71111073f0ad2ef699b671"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>2027e5312f71111073f0ad2ef699b670</id>
+        <name>Flight Fulfillment</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 09:44:03</sys_created_on>
+        <sys_id>e827e5312f71111073f0ad2ef699b671</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 09:44:03</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=e827e5312f71111073f0ad2ef699b671"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=2027e5312f71111073f0ad2ef699b670"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=2027e5312f71111073f0ad2ef699b670"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2027e5312f71111073f0ad2ef699b670"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=2027e5312f71111073f0ad2ef699b670"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=2027e5312f71111073f0ad2ef699b670"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=2027e5312f71111073f0ad2ef699b670"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=2027e5312f71111073f0ad2ef699b670"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=2027e5312f71111073f0ad2ef699b670"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_2027e5312f71111073f0ad2ef699b670"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_2027e5312f71111073f0ad2ef699b670"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_2027e5312f71111073f0ad2ef699b670"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_2027e5312f71111073f0ad2ef699b670"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=2027e5312f71111073f0ad2ef699b670"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=2027e5312f71111073f0ad2ef699b670"/>
+</record_update>
